@@ -1,24 +1,38 @@
-
-
 /* HTML Styles */
 
 html {
     background-image: linear-gradient(white, black);
 }
 
+/* Navigation Styles */
 
+header > nav {
+    display: table;
+    width: 85%;
+    float: right;
+    padding-top: 24px;
+}
 
+header > nav > ul {
+    display: table-row;
+    list-style-type: none;
+    background-image: linear-gradient(to right, rgb(250, 146, 11) , rgb(250, 177, 41) , rgb(245, 205, 146));
+}
 
+header > nav > ul > li {
+    display: table-cell;
+    text-align: center;
+    padding: 7px 0px 7px 0px;
+}
 
-
-
-
-
+header > nav > ul > li > a{
+    text-decoration: none;
+}
 
 /* Logo Styles */
 
 .logoImg {
-    max-width: 200px;
+    max-width: 15%;
 }
 
 /* Styles*/
@@ -26,7 +40,6 @@ html {
 .bg-img {
     /* The image used */
     background-image: url("campus.JPG");
-
     min-height: 400px;
 
     /* Center and scale the image nicely */
@@ -77,11 +90,11 @@ input[type=password]:focus {
     opacity: 1;
 }
 
-body,
-html {
+html, body {
     height: 100%;
-    font-family: Arial, Helvetica, sans-serif;
 }
+
+
 
 * {
     box-sizing: border-box;
