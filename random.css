@@ -2,6 +2,7 @@
 
 html {
     background-image: linear-gradient(white, black);
+    background: cover;
 }
 
 /* Navigation Styles */
@@ -31,15 +32,28 @@ header > nav > ul > li > a{
 
 /* Logo Styles */
 
-.logoImg {
+.navImg {
     max-width: 15%;
 }
 
-/* Styles*/
+/*Campus Image Styles*/
 
-.bg-img {
+.campus-img {
     /* The image used */
     background-image: url("campus.JPG");
+    min-height: 400px;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+/* Student 1 Image Styles */
+.studentOne-img {
+    /* The image used */
+    background-image: url("West-MEC-Assets-2019-05-01T23_40_54.412Z/01.\ Physical\ Therapy\ Technician.JPG");
     min-height: 400px;
 
     /* Center and scale the image nicely */
