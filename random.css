@@ -90,8 +90,8 @@ header > nav > ul > li > a{
     position: relative;
 }
 
-/* Add styles to the form container */
-.container {
+/* Add Styles to the Home and Hosa Containers */
+.home_container, .hosa_container {
     position: absolute;
     right: 0;
     margin: 20px;
@@ -100,27 +100,9 @@ header > nav > ul > li > a{
     background-color: white;
 }
 
-/* About container styles */
+/* About and Contact Container Styles */
 
-.about_container {
-    position: absolute;
-    left: 0;
-    margin: 20px;
-    max-width: 300px;
-    padding: 28px;
-    background-color: white;
-}
-
-.hosa_container {
-    position: absolute;
-    right: 0;
-    margin: 20px;
-    max-width: 300px;
-    padding: 28px;
-    background-color: white;
-}
-
-.contact_container {
+.about_container, .contact_container {
     position: absolute;
     left: 0;
     margin: 20px;
