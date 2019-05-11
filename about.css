@@ -1,5 +1,3 @@
-@charset "utf-8";
-
 /* HTML Styles */
 
 html {
@@ -40,56 +38,15 @@ header > nav > ul > li > a:hover {
     color: whitesmoke;
 }
 
+/* Icon Styles */
+
 #navIcon {
     display: none;
+    color: black;
 }
 
 /* Logo Styles */
 
 .navImg {
     max-width: 15%;
-}
-
-/* Mobile Styles */
-
-@media only screen and (max-width: 520px) {
-
-    a.navImg {
-        display: none;
-    }
-
-    a#navIcon {
-        display: block;
-        font-size: 1.3em;
-        text-decoration: none;
-    }
-
-    nav ul {
-        display: none;
-    }
-
-    header > nav > ul {
-        padding-top: 0;
-    }
-}
-
-@media only screen and (max-width: 900px) {
-
-    a.navImg {
-        display: none;
-    }
-
-    a#navIcon {
-        display: block;
-        font-size: 6em;
-        text-decoration: none;
-    }
-
-    nav ul {
-        display: none;
-    }
-
-    header > nav > ul {
-        padding-top: 0;
-    }
 }

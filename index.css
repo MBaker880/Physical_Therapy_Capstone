@@ -31,10 +31,18 @@ header > nav > ul > li {
 
 header > nav > ul > li > a{
     text-decoration: none;
+    color: black;
 }
+
+header > nav > ul > li > a:hover {
+    color: whitesmoke;
+}
+
+/* Icon Styles */
 
 #navIcon {
     display: none;
+    color: black;
 }
 
 /* Logo Styles */
@@ -94,8 +102,20 @@ header > nav > ul > li > a{
     position: relative;
 }
 
+.services-img {
+    /* The image used */
+    background-image: url("adult-athlete-bar-1309233.jpg");
+    min-height: 400px;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
 /* Add Styles to the Home and Hosa Containers */
-.home_container, .hosa_container {
+.home_container, .hosa_container, .services_container {
     position: absolute;
     right: 0;
     margin: 20px;
