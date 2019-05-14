@@ -40,15 +40,15 @@ header > nav > ul > li > a:hover {
     color: whitesmoke;
 }
 
+/* Logo Styles */
+
+.navImg {
+    max-width: 15%;
+}
+
 /* Icon Styles */
 
 #navIcon {
     display: none;
     color: black;
-}
-
-/* Logo Styles */
-
-.navImg {
-    max-width: 15%;
 }

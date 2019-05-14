@@ -29,6 +29,8 @@ header > nav > ul > li {
     display: table-cell;
     text-align: center;
     padding: 7px 0px 7px 0px;
+    width: 20%;
+    float: left;
 }
 
 header > nav > ul > li > a{
@@ -48,6 +50,78 @@ header > nav > ul > li > a:hover {
 
 .navImg {
     max-width: 15%;
+}
+
+/*  Contact Form styles  */
+
+#contact-form {
+    font-family: 'Lato', calibri, arial;
+    font-size: 16px;
+    font-weight: 300;
+    width: 100%;
+    color: #fff;
+    overflow: auto;
+}
+
+#contact-area {
+    width: 450px;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#contact-area input,
+#contact-area textarea {
+    padding: 5px;
+    width: 450px;
+    font-family: 'Lato', calibri, arial;
+    font-size: 15px;
+    font-weight: 300;
+    color: #fff;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-bottom: 1px solid orange;
+    margin-bottom: 15px;
+    height: 28px;
+}
+
+#contact-area textarea {
+    height: 200px;
+    background-color: transparent;
+    border-top: 1px solid transparent;
+    border-left: 1px solid transparent;
+    border-bottom: 1px solid orange;
+    border-right: 1px solid transparent;
+}
+
+#contact-area textarea:focus,
+#contact-area input:focus {
+    background-color: #333;
+    border: 1px solid transparent;
+    border-bottom: 1px solid #fff;
+}
+
+/* Submit button */
+
+#contact-area input.submit-button {
+    font-family: 'Lato', calibri, arial;
+    font-size: 12px;
+    font-weight: 300;
+    text-transform: uppercase;
+    width: 100px;
+    float: left;
+    background-color: transparent;
+    border: 1px solid orange;
+    -moz-transition: all 0.1s ease-in-out;
+    -webkit-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    -ms-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+}
+
+#contact-area input.submit-button:hover {
+    color: #fff;
+    background-color: #333;
 }
 
 /* Mobile Styles */

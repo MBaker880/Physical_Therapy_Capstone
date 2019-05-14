@@ -27,6 +27,8 @@ header > nav > ul > li {
     display: table-cell;
     text-align: center;
     padding: 7px 0px 7px 0px;
+    width: 20%;
+    float: left;
 }
 
 header > nav > ul > li > a{

@@ -27,6 +27,8 @@ header > nav > ul > li {
     display: table-cell;
     text-align: center;
     padding: 7px 0px 7px 0px;
+    width: 20%;
+    float: left;
 }
 
 header > nav > ul > li > a{
@@ -153,7 +155,7 @@ input[type=password]:focus {
 
 /* Set a style for the submit button */
 .btn {
-    background-color: #4CAF50;
+    background-image: linear-gradient(to right, rgb(250, 138, 11) , rgb(250, 177, 41) , rgb(245, 205, 146));
     color: white;
     padding: 16px 20px;
     border: none;
