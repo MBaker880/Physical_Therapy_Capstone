@@ -40,6 +40,10 @@ header > nav > ul > li > a:hover {
     color: whitesmoke;
 }
 
+#sideNav {
+    display: none;
+}
+
 /* Icon Styles */
 
 #navIcon {
@@ -207,13 +211,52 @@ h1 {
         text-decoration: none;
     }
 
-    nav ul {
+    header {
         display: none;
     }
 
-    header > nav > ul {
-        padding-top: 0;
+    /* Style the links inside the sidenav */
+    #sideNav a {
+        position: absolute; 
+        left: -80px; 
+        transition: 0.3s; 
+        padding: 15px;
+        width: 100px; 
+        text-decoration: none;
+        font-size: 20px;
+        color: white; 
+        border-radius: 0 5px 5px 0; 
     }
+  
+    #sideNav a:hover {
+        left: 0;
+    }
+
+    #index {
+        top: 20px;
+        background-color: rgb(250, 146, 11);
+    }
+  
+    #about {
+        top: 80px;
+        background-color: rgb(250, 146, 11);
+    }
+  
+    #ctso {
+        top: 140px;
+        background-color: rgb(250, 146, 11)
+    }
+  
+    #contact {
+        top: 200px;
+        background-color: rgb(250, 146, 11)
+    }
+
+    #students {
+        top: 284px;
+        background-color: rgb(250, 146, 11)
+    }
+
 }
 
 @media only screen and (max-width: 900px) {
@@ -228,11 +271,49 @@ h1 {
         text-decoration: none;
     }
 
-    nav ul {
+    header {
         display: none;
     }
+    
+    /* Style the links inside the sidenav */
+    #sideNav a {
+        position: absolute; 
+        left: -80px; 
+        transition: 0.3s; 
+        padding: 15px;
+        width: 100px; 
+        text-decoration: none;
+        font-size: 20px;
+        color: white; 
+        border-radius: 0 5px 5px 0; 
+    }
+  
+    #sideNav a:hover {
+        left: 0;
+    }
 
-    header > nav > ul {
-        padding-top: 0;
+    #index {
+        top: 20px;
+        background-color: rgb(250, 146, 11);
+    }
+  
+    #about {
+        top: 80px;
+        background-color: rgb(250, 146, 11);
+    }
+  
+    #ctso {
+        top: 140px;
+        background-color: rgb(250, 146, 11)
+    }
+  
+    #contact {
+        top: 200px;
+        background-color: rgb(250, 146, 11)
+    }
+
+    #students {
+        top: 284px;
+        background-color: rgb(250, 146, 11)
     }
 }
