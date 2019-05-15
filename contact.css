@@ -75,14 +75,14 @@ header > nav > ul > li > a:hover {
     padding: 5px;
     width: 450px;
     font-family: 'Lato', calibri, arial;
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 300;
-    color: #fff;
+    color: rgb(250, 176, 115);
     background-color: transparent;
     border: 1px solid transparent;
     border-bottom: 1px solid orange;
     margin-bottom: 15px;
-    height: 28px;
+    height: 24px;
 }
 
 #contact-area textarea {
