@@ -46,6 +46,17 @@ header > nav > ul > li > a:hover {
     max-width: 15%;
 }
 
+body > h1 {
+    margin-right: auto;
+    margin-left: auto;
+    align-content: center;
+}
+
+p {
+    padding: 100px 200px;
+    font-size: 20px;
+}
+
 /* Icon Styles */
 
 #navIcon {
